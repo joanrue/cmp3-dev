@@ -1,0 +1,34 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1
+            ],
+            "total": 2
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 1
+        }
+    ],
+    "maxN": 2,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_overlay_fig",
+            "report": "/tmp/tmpblds4ybe/overlay_workflow/overlay_fig/_report/report.rst",
+            "result": "/tmp/tmpblds4ybe/overlay_workflow/overlay_fig/result_overlay_fig.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_sinker",
+            "report": "/tmp/tmp4uzuxx3x/overlay_workflow/sinker/_report/report.rst",
+            "result": "/tmp/tmp4uzuxx3x/overlay_workflow/sinker/result_sinker.pklz"
+        }
+    ]
+}
