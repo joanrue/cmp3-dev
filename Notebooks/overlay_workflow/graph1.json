@@ -27,20 +27,20 @@
         {
             "group": 1,
             "name": "0_bids-grabber",
-            "report": "/tmp/tmpn9oxcl62/bids-grabber/_report/report.rst",
-            "result": "/tmp/tmpn9oxcl62/bids-grabber/result_bids-grabber.pklz"
+            "report": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmpg56nky_h/bids-grabber/_report/report.rst",
+            "result": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmpg56nky_h/bids-grabber/result_bids-grabber.pklz"
         },
         {
             "group": 1,
             "name": "1_overlay_fig",
-            "report": "/tmp/tmp4qdva5ys/overlay_workflow/overlay_fig/_report/report.rst",
-            "result": "/tmp/tmp4qdva5ys/overlay_workflow/overlay_fig/result_overlay_fig.pklz"
+            "report": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmpw4v7brl9/overlay_workflow/overlay_fig/_report/report.rst",
+            "result": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmpw4v7brl9/overlay_workflow/overlay_fig/result_overlay_fig.pklz"
         },
         {
             "group": 1,
             "name": "2_sinker",
-            "report": "/tmp/tmpkyexzy4d/overlay_workflow/sinker/_report/report.rst",
-            "result": "/tmp/tmpkyexzy4d/overlay_workflow/sinker/result_sinker.pklz"
+            "report": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmp_yyauy_h/overlay_workflow/sinker/_report/report.rst",
+            "result": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmp_yyauy_h/overlay_workflow/sinker/result_sinker.pklz"
         }
     ]
 }
