@@ -1,0 +1,24 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "0_bids-grabber",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_bids-grabber"
+        ],
+        "name": "1_overlay_fig",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "1_overlay_fig"
+        ],
+        "name": "2_sinker",
+        "size": 1
+    }
+]

@@ -1,0 +1,8 @@
+digraph overlay_workflow{
+  label="overlay_workflow";
+  overlay_workflow_input_node[label="input_node (utility)"];
+  overlay_workflow_overlay_fig[label="overlay_fig (utility)"];
+  overlay_workflow_sinker[label="sinker (io)"];
+  overlay_workflow_input_node -> overlay_workflow_overlay_fig;
+  overlay_workflow_overlay_fig -> overlay_workflow_sinker;
+}
