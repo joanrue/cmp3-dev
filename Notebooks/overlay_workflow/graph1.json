@@ -4,9 +4,10 @@
             "name": "Group_00001",
             "procs": [
                 0,
-                1
+                1,
+                2
             ],
-            "total": 2
+            "total": 3
         }
     ],
     "links": [
@@ -14,21 +15,32 @@
             "source": 0,
             "target": 1,
             "value": 1
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "value": 1
         }
     ],
-    "maxN": 2,
+    "maxN": 3,
     "nodes": [
         {
             "group": 1,
-            "name": "0_overlay_fig",
-            "report": "/tmp/tmpblds4ybe/overlay_workflow/overlay_fig/_report/report.rst",
-            "result": "/tmp/tmpblds4ybe/overlay_workflow/overlay_fig/result_overlay_fig.pklz"
+            "name": "0_bids-grabber",
+            "report": "/tmp/tmpn9oxcl62/bids-grabber/_report/report.rst",
+            "result": "/tmp/tmpn9oxcl62/bids-grabber/result_bids-grabber.pklz"
         },
         {
             "group": 1,
-            "name": "1_sinker",
-            "report": "/tmp/tmp4uzuxx3x/overlay_workflow/sinker/_report/report.rst",
-            "result": "/tmp/tmp4uzuxx3x/overlay_workflow/sinker/result_sinker.pklz"
+            "name": "1_overlay_fig",
+            "report": "/tmp/tmp4qdva5ys/overlay_workflow/overlay_fig/_report/report.rst",
+            "result": "/tmp/tmp4qdva5ys/overlay_workflow/overlay_fig/result_overlay_fig.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_sinker",
+            "report": "/tmp/tmpkyexzy4d/overlay_workflow/sinker/_report/report.rst",
+            "result": "/tmp/tmpkyexzy4d/overlay_workflow/sinker/result_sinker.pklz"
         }
     ]
 }
