@@ -33,12 +33,14 @@
         {
             "group": 1,
             "name": "0_bids-grabber",
+
             "report": "/tmp/tmpkkgxve8h/overlay_workflow/bids-grabber/_report/report.rst",
             "result": "/tmp/tmpkkgxve8h/overlay_workflow/bids-grabber/result_bids-grabber.pklz"
         },
         {
             "group": 1,
             "name": "1_overlay_fig",
+
             "report": "/tmp/tmpwhp_d_59/overlay_workflow/overlay_fig/_report/report.rst",
             "result": "/tmp/tmpwhp_d_59/overlay_workflow/overlay_fig/result_overlay_fig.pklz"
         },
