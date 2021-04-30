@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#cmp output
+Notebooks/tractography_workflow/
+Notebooks/segmentation_workflow/
