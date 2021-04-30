@@ -18,7 +18,15 @@
         "imports": [
             "1_overlay_fig"
         ],
-        "name": "2_sinker",
+        "name": "2_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "1_overlay_fig"
+        ],
+        "name": "3_sinker",
         "size": 1
     }
 ]

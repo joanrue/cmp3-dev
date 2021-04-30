@@ -5,9 +5,10 @@
             "procs": [
                 0,
                 1,
-                2
+                2,
+                3
             ],
-            "total": 3
+            "total": 4
         }
     ],
     "links": [
@@ -18,29 +19,42 @@
         },
         {
             "source": 1,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 1,
             "target": 2,
             "value": 1
         }
     ],
-    "maxN": 3,
+    "maxN": 4,
     "nodes": [
         {
             "group": 1,
             "name": "0_bids-grabber",
-            "report": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmpg56nky_h/bids-grabber/_report/report.rst",
-            "result": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmpg56nky_h/bids-grabber/result_bids-grabber.pklz"
+
+            "report": "/tmp/tmpkkgxve8h/overlay_workflow/bids-grabber/_report/report.rst",
+            "result": "/tmp/tmpkkgxve8h/overlay_workflow/bids-grabber/result_bids-grabber.pklz"
         },
         {
             "group": 1,
             "name": "1_overlay_fig",
-            "report": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmpw4v7brl9/overlay_workflow/overlay_fig/_report/report.rst",
-            "result": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmpw4v7brl9/overlay_workflow/overlay_fig/result_overlay_fig.pklz"
+
+            "report": "/tmp/tmpwhp_d_59/overlay_workflow/overlay_fig/_report/report.rst",
+            "result": "/tmp/tmpwhp_d_59/overlay_workflow/overlay_fig/result_overlay_fig.pklz"
         },
         {
             "group": 1,
-            "name": "2_sinker",
-            "report": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmp_yyauy_h/overlay_workflow/sinker/_report/report.rst",
-            "result": "/private/var/folders/t7/t6fr54mx5cl1t4t9fcmq_rzr0000gq/T/tmp_yyauy_h/overlay_workflow/sinker/result_sinker.pklz"
+            "name": "2_report",
+            "report": "/tmp/tmpdrp8z346/overlay_workflow/report/_report/report.rst",
+            "result": "/tmp/tmpdrp8z346/overlay_workflow/report/result_report.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_sinker",
+            "report": "/tmp/tmpyu1dgo1l/overlay_workflow/sinker/_report/report.rst",
+            "result": "/tmp/tmpyu1dgo1l/overlay_workflow/sinker/result_sinker.pklz"
         }
     ]
 }
